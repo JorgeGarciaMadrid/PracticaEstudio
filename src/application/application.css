@@ -1,0 +1,57 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.sky{
+    -fx-background-image: url("../view/assets/sky.jpeg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+}
+
+.galaxy{
+    -fx-background-image: url("../view/assets/sky.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+}
+
+@font-face {
+   font-family: PoiretOne;
+   src: url(../view/assets/PoiretOne-Regular.ttf);
+}
+
+.login {
+    -fx-font-family: PoiretOne;
+    -fx-font-size: 30px;
+}
+
+.button1 {
+    -fx-background-color: orange;
+}
+.button2 {
+    -fx-background-color: orange;
+}
+
+.header {
+    -fx-background-color:  #04afff;
+}
+
+.gradpane{
+    -fx-background-color: linear-gradient(#5588ff, #ffa2b1);
+}
+
+.homeBTNS {
+    -fx-background-color: #ff895e;
+}
+
+.hover {
+    -fx-background-color: #EE5D5D;
+}
+
+.image1{
+    -fx-background-image: url(../view/assets/island.jpg);
+    -fx-background-size: cover, auto;
+
+    -fx-min-height: 132px;
+    -fx-min-width: 128px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center 8px;
+
+}
